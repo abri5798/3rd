@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <body bgcolor="pink">
+
+    <h2>Registration Form</h2>
+    <img src="img_girl.jpg" width="250" height="300" alt="Girl with jacket"> 
+
+    <form>
+        First Name:
+        <input type="text" name="fname" required>
+        <br><br>
+
+        Middle Name:
+        <input type="text" name="mname">
+        <br><br>
+
+        Last Name:
+        <input type="text" name="lname" required>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Age:
+        <input type="number" name="age" min="1">
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="dob">
+        <br><br>
+
+        Hobby:
+        <select name="hobby">
+            <option value="">Select Hobby</option>
+            <option value="Football">Football</option>
+            <option value="Music">Music</option>
+            <option value="Film">Film</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option value="">Select Department</option>
+            <option value="CS">CS</option>
+            <option value="IT">IT</option>
+            <option value="EE">EE</option>
+            <option value="ME">ME</option>
+            <option value="CE">CE</option>
+            <option value="CHE">CHE</option>
+        </select>
+        <br><br>
+
+        <input type="button" name="submit" value="register">
+        <input type="button" name="Reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
